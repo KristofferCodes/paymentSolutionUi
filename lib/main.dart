@@ -13,8 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.deepOrange,
-        fontFamily: 'SF-Pro-Display',
+        primarySwatch: Colors.blueGrey,
       ),
       home: const LoginPage(),
     );
