@@ -15,6 +15,7 @@ class _PaymentPageState extends State<PaymentPage>
   Widget build(BuildContext context) {
     TabController _tabController = TabController(length: 2, vsync: this);
     return Scaffold(
+      resizeToAvoidBottomInset: false,
       body: SafeArea(
         child: Padding(
           padding: const EdgeInsets.all(20.0),
